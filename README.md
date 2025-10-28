@@ -7,7 +7,7 @@ This project also includes a **Streamlit web app** for interactive image predict
 
 ## 📂 Project Structure
 
-"""
+'''
 CIFAR10-Classifier/
 │
 ├── app.py # Streamlit web app for predictions
@@ -23,7 +23,7 @@ CIFAR10-Classifier/
 ├── model.py # Model architecture definition
 ├── train.py # Model training script
 └── utils.py # Helper functions (class names, preprocessing, etc.)
-"""
+'''
 
 ---
 

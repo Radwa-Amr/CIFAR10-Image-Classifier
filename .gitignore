@@ -1,0 +1,63 @@
+# -----------------------------
+# Python general ignores
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+*.log
+*.csv
+*.dat
+*.tmp
+
+# -----------------------------
+# Virtual environment
+# -----------------------------
+venv/
+.env/
+env/
+.venv/
+
+# -----------------------------
+# Jupyter / VS Code / PyCharm
+# -----------------------------
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.code-workspace
+
+# -----------------------------
+# OS-specific
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# TensorFlow / ML Artifacts
+# -----------------------------
+*.h5
+*.pb
+*.ckpt
+*.tflite
+*.onnx
+checkpoint/
+saved_model/
+logs/
+
+# -----------------------------
+# Streamlit Cache
+# -----------------------------
+.streamlit/
+.cache/
+__pycache__/
+
+# -----------------------------
+# Temporary Folders / Datasets
+# -----------------------------
+dataset/
+dataset_samples/
+*.zip
+*.tar
+*.gz
